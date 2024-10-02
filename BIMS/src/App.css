@@ -1,0 +1,27 @@
+#root {
+  margin: 0 auto;
+  background: #FFFAFA;
+  text-align: center;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (max-width: 1000px) {
+  .admin-topbar-title {
+    font-size: 14px;
+  }
+}
+
+
+

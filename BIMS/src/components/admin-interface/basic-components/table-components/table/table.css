@@ -1,0 +1,9 @@
+/* .admin_table {
+  margin-left: 4rem; 
+  position: relative;
+} */
+
+.admin_table tbody tr:hover {
+  background-color: #dcdcdc; 
+  cursor: pointer; 
+}

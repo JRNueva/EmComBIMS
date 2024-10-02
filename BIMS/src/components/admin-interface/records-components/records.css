@@ -1,0 +1,19 @@
+/* Ensure full width and height */
+.w-screen {
+    width: 100vw;
+  }
+  
+  .h-screen {
+    height: 100vh;
+  }
+  
+  /* Ensure flex grow and scroll handling */
+  .records{
+    margin-top: 3rem; /* Space between topbar and table actions */
+    padding: 1rem; /* Add padding if needed */
+    flex-grow: 2; /* Allow this section to grow and fill available space */
+    display: flex; /* Ensure flex context for children */
+    flex-direction: column; /* Stack children vertically */
+    align-items: stretch; /* Ensure children stretch to fill available width */
+  }
+  

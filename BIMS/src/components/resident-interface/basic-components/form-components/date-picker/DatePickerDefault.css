@@ -1,0 +1,40 @@
+/* Custom calendar container styling with padding */
+.flatpickr-calendar.custom-calendar-container {
+  background-color: #f9fafb; 
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Inter', sans-serif; 
+}
+
+.flatpickr-day.selected,
+.flatpickr-day.startRange,
+.flatpickr-day.endRange,
+.flatpickr-day.selected:hover {
+  border-color: #3e5c78;
+  background-color: #3e5c78 !important; 
+  color: white !important; 
+}
+
+.flatpickr-day:hover {
+  border-color: #748cab;
+  background-color: #748cab !important; 
+  color: white !important; 
+  border-radius: 50%; 
+}
+
+.flatpickr-day.disabled {
+  background-color: #f3f4f6;
+  color: #d1d5db;
+  cursor: not-allowed;
+}
+
+.flatpickr-month {
+  font-family: 'Inter', sans-serif; 
+  color: #3e5c78; 
+}
+
+.flatpickr-weekday {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600; 
+  color: #748cab;
+}
