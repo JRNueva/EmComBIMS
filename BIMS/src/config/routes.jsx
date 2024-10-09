@@ -109,25 +109,25 @@ export const routes = [
               // {path:':id/view', element: <ViewApplicationForm /> },
               // {path:':id/edit', element: <ApplicationForm /> },
             ]
-          }
-        ]
-      },
-      { path: 'business-information', 
-        children: [
-          { index: true, element: <RegistryBusiness /> },
-          { path: ':status', element: <RegistryBusiness /> },
-          // {path:':id', element: <ApplicationForm /> },
-          // {path:':id/view', element: <ViewApplicationForm /> },
-          // {path:':id/edit', element: <ApplicationForm /> },
-        ]
-      },
-      { path: 'incidents-reports', 
-        children: [
-          { index: true, element: <RegistryIncidents /> },
-          { path: ':status', element: <RegistryIncidents /> },
-          // {path:':id', element: <ApplicationForm /> },
-          // {path:':id/view', element: <ViewApplicationForm /> },
-          // {path:':id/edit', element: <ApplicationForm /> },
+          },
+          { path: 'business-information', 
+            children: [
+              { index: true, element: <RegistryBusiness /> },
+              { path: ':status', element: <RegistryBusiness /> },
+              // {path:':id', element: <ApplicationForm /> },
+              // {path:':id/view', element: <ViewApplicationForm /> },
+              // {path:':id/edit', element: <ApplicationForm /> },
+            ]
+          },
+          { path: 'incidents-reports', 
+            children: [
+              { index: true, element: <RegistryIncidents /> },
+              { path: ':status', element: <RegistryIncidents /> },
+              // {path:':id', element: <ApplicationForm /> },
+              // {path:':id/view', element: <ViewApplicationForm /> },
+              // {path:':id/edit', element: <ApplicationForm /> },
+            ]
+          },
         ]
       },
       { path: 'archives', 

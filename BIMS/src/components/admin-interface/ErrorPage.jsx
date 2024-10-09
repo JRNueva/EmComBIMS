@@ -14,7 +14,7 @@ function ErrorPageAdmin() {
 
     useEffect(() => {
         const timer = setTimeout(() => {
-            navigate('/admin/error-page');
+            // navigate('/admin/error-page');
         }, 1000); 
 
         return () => clearTimeout(timer); 
